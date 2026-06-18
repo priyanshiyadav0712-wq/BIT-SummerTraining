@@ -17,7 +17,7 @@ print(city[2])
 # ### Question 3: Set Add  (Create a set of 4 course names. Add `"AI"` to the set and print the sorted list of courses.)
 # # Expected Output: ['AI', 'Data Analytics', 'Machine Learning', 'Python', 'SQL']
 
-course_set = {"Data Analystics", "Machine Learning", "Python", "SQL"}
+course_set = {"Data Analytics", "Machine Learning", "Python", "SQL"}
 course_set.add("AI")
 course = sorted(course_set)
 print(course)
@@ -29,8 +29,8 @@ print(course)
 # # Course: Python Data AI
 
 student_dic = {
-    "Name":"Aradhana",
-    "Course": "B.Tech",
+    "Name":"Rahul",
+    "Course": "Python Data AI",
     "Batch": "A",
     "City": "Gorakhpur"
 }
@@ -46,7 +46,7 @@ even_list = []
 for num in nums:
     if num %2==0:
         even_list.append(num)
-print(f" List of the even number : {even_list}")
+print(even_list)
     
 
 # ### Question 6: Count Word Frequency  (Create a list of words:)
@@ -59,8 +59,6 @@ for word in words:
         freq[word] +=1
     else:
         freq[word] =1
-
-print(freq) #Outcome in dictionary form
 
 for key, value in freq.items():
     print(f"{key} : {value}")
@@ -96,4 +94,4 @@ for student in python_students :
         common_student.append(student)
 
 common_student.sort()
-print(f"Common Student : {common_student}")
+print(common_student)
